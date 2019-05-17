@@ -4,7 +4,8 @@ if array.length == 1
 elsif array.length == 2
   array.join(" and ")
 else
-  new_ending = "and " + 
+  new_ending = "and " + array.last 
+  
 
 
 end
