@@ -5,6 +5,7 @@ elsif array.length == 2
   array.join(" and ")
 else
   new_ending = "and " + array.last 
+  array.pop
   
 
 
