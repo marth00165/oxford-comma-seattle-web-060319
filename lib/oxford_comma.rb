@@ -8,7 +8,8 @@ else
   array.pop
   array << new_ending
   array.join (", ")
-  
+end
+
 
 
 end
