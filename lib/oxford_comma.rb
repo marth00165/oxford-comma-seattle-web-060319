@@ -6,6 +6,7 @@ elsif array.length == 2
 else
   new_ending = "and " + array.last 
   array.pop
+  array << new_ending
   
 
 
