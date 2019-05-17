@@ -7,6 +7,7 @@ else
   new_ending = "and " + array.last 
   array.pop
   array << new_ending
+  array.join (" , ")
   
 
 
